@@ -1,40 +1,5 @@
-# Code Sync
+# Real-time-code-editor
 
-_Code Sync web app is a code editor that allows its users to collaborate and write code together. It provides basic editing features and the changes are synced in realtime. The editor supports syntax of 21 programming languages and offers 63 design themes._
-
-<br/>
-
-**Link to the web app:** [https://code-sync-qq8w.onrender.com/](https://code-sync-qq8w.onrender.com/) <br/>
-
-<br/>
-
-### Tech Stack ###
-  **Frontend**
-  * React
-  * Recoil
-  * CodeMirror
-  * react-hot-toast
-  * axios
-  * react-router
-  
-  **Backend**
-  * Node.js
-  * Express.js
-  * Socket.io
-
-<br/>
-
-### Features ###
-* **Responsive Design**
-* **Realtime Collobarative Code Editor**
-* **Supports syntax of 21 programming languages**
-* **Supports 63 design themes**
-
-
-<br/>
-<br/>
-
-- - - -
 
 ## Getting Started with Create React App
 
