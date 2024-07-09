@@ -57,11 +57,6 @@ const EditorPage = () => {
             code: codeRef.current,
             socketId,
           });
-
-          // socketRef.current.emit(ACTIONS.SYNC_CODE, {
-          //     message: messageRef.current,
-          //     socketId,
-          // });
         }
       );
 
@@ -102,7 +97,7 @@ const EditorPage = () => {
   return (
     <div className="mainWrap">
       <div className="aside">
-        <div className="asideInner">
+        <div className=" h-75  d-flex flex-column gap-3  ">
           <div className="logo">
             <img className="logoImage" src="/code-sync.png" alt="logo" />
           </div>
@@ -120,13 +115,14 @@ const EditorPage = () => {
             }}
           />
         </div>
-
-        <button className="btn btn-success" onClick={copyRoomId}>
-          Copy ROOM ID
-        </button>
-        <button className="btn leaveBtn" onClick={leaveRoom}>
-          Leave
-        </button>
+        <div className=" buttonspace d-flex flex-column gap-1 justify-content-end">
+          <button className="btn btn-success" onClick={copyRoomId}>
+            Copy ROOM ID
+          </button>
+          <button className="btn btn-success" onClick={leaveRoom}>
+            Leave
+          </button>
+        </div>
       </div>
 
       <div className="editorWrap">

@@ -43,8 +43,9 @@ io.on("connection", (socket) => {
     socket.in(roomId).emit(ACTIONS.CODE_CHANGE, { code });
   });
   socket.on(ACTIONS.Message, ({ roomId, message }) => {
+    console.log(message);
     // socket.in(roomId).emit(ACTIONS.Message, { messageref });
-    socket.in(roomId).emit("Received", { message });
+    socket.to(roomId).emit("Received", { message });
     // socket.in(roomId).emit("Received", { messaage });
   });
 

@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* overflow-x: hidden; */
 }
 body {
     margin: 0;
@@ -20,4 +21,26 @@ body {
 .imgs {
     max-height: 100vh;
     width: 100%;
+}
+.chatbox {
+    scroll-behavior: smooth;
+}
+.chatbox::-webkit-scrollbar {
+    /* display: none; */
+    width: 3px;
+    /* background-color: red; */
+    /* opacity: 0.1; */
+  }
+  .chatbox::-webkit-scrollbar-thumb {
+    background: rgb(63, 61, 61); 
+    border-radius: 10px;
+  }
+
+.buttonspace {
+    min-height: 20%;
+    /* max-height: 25%; */
+}
+p{
+    margin: 0;
+    padding: 0;
 }

@@ -1,14 +1,11 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import { FirebaseProvider } from "./Firebase";
-
-ReactDOM.render(
-  <React.StrictMode>
-    <FirebaseProvider>
-      <App />
-    </FirebaseProvider>
-  </React.StrictMode>,
-  document.getElementById("root")
+import { createRoot } from "react-dom/client";
+const root = createRoot(document.getElementById("root"));
+root.render(
+  <FirebaseProvider>
+    <App />
+  </FirebaseProvider>
 );
