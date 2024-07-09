@@ -160,7 +160,7 @@ footer a:hover {
 }
 
 .CodeMirror {
-    min-height: calc(100vh - 20px);
+    min-height: calc(100vh - 20px) !important;
     width: calc(100vw - 180px);
     font-size: 16px;
     line-height: 1.6;
