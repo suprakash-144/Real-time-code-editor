@@ -4,7 +4,8 @@ A code editor that allows its users to collaborate and write code together. It p
 
 <br/>
 
-**Link to the web app:** [Click here](https://try-t34g.onrender.com/)<br/>
+### Link to the web app:
+`takes time to load the first time` [Click here](https://try-t34g.onrender.com/)
 
 ### Tech Stack
 **Frontend**
@@ -32,3 +33,6 @@ A code editor that allows its users to collaborate and write code together. It p
 - **Supports 63 design themes**
 
 ### Screenshots 
+
+![image](https://github.com/user-attachments/assets/401d052b-213a-4edb-b5b5-13705d551601)
+
